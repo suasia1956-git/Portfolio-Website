@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Sushant Kumar Das | Get in touch</title>
+  <meta name="description" content="Contact Sushant Kumar Das about a project, an internship or a collaboration. Use the form or send an email directly.">
+  <meta name="author" content="Sushant Kumar Das">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f6f7f9">
+
+  <!-- <link rel="canonical" href="https://www.example.com/contact.html"> -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sushant Kumar Das">
+  <meta property="og:title" content="Contact Sushant Kumar Das | Get in touch">
+  <meta property="og:description" content="Get in touch about a project, an internship or a collaboration.">
+  <meta property="og:url" content="https://www.example.com/contact.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contact Sushant Kumar Das | Get in touch">
+  <meta name="twitter:description" content="Get in touch about a project, an internship or a collaboration.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Sushant Kumar Das</a>
+      <nav aria-label="Primary">
+        <ul class="nav-list" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap page-head">
+      <h1>Contact</h1>
+      <p class="lead">Tell me what you're working on or what you have in mind, and I'll reply as soon as I can.</p>
+    </div>
+
+    <div class="wrap section">
+      <div class="two-col">
+        <section aria-labelledby="form-title">
+          <h2 id="form-title">Send a message</h2>
+          <p class="hint form-note">All fields are required.</p>
+
+          <div id="error-summary" class="error-summary" tabindex="-1" role="group" aria-labelledby="error-summary-title" hidden>
+            <h2 id="error-summary-title">There is a problem</h2>
+            <ul id="error-summary-list" role="list"></ul>
+          </div>
+
+          <form id="contact-form" action="#" method="post" data-endpoint="" aria-label="Contact form" class="contact-form">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input class="control" type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error" data-field>
+              <p id="name-error" class="error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <p id="email-hint" class="hint">For example, name@example.com</p>
+              <input class="control" type="email" id="email" name="email" autocomplete="email" spellcheck="false" required aria-describedby="email-hint email-error" data-field>
+              <p id="email-error" class="error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="topic">What is this about?</label>
+              <select class="control" id="topic" name="topic" required aria-describedby="topic-error" data-field>
+                <option value="">Choose a topic</option>
+                <option value="project">A project or collaboration</option>
+                <option value="opportunity">An internship or job opportunity</option>
+                <option value="question">A question</option>
+                <option value="other">Something else</option>
+              </select>
+              <p id="topic-error" class="error" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Your message</label>
+              <p id="message-hint" class="hint">Write at least 10 characters.</p>
+              <textarea class="control" id="message" name="message" rows="6" minlength="10" required aria-describedby="message-hint message-error" data-field></textarea>
+              <p id="message-error" class="error" hidden></p>
+            </div>
+
+            <button class="button" type="submit" id="submit-button">Send message</button>
+          </form>
+
+          <div id="form-status" class="status" role="status" aria-live="polite"></div>
+        </section>
+
+        <aside class="contact-aside" aria-labelledby="direct-title">
+          <h2 id="direct-title">Prefer email?</h2>
+          <address>
+            <p><a href="mailto:suasia2121@gmail.com">suasia2121@gmail.com</a></p>
+          </address>
+          <p>You can also reach me on the profiles linked in the footer.</p>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><small>&copy; 2026 Sushant Kumar Das. All rights reserved.</small></p>
+      <nav aria-label="Footer">
+        <ul class="footer-list" role="list">
+          <li><a href="https://github.com/suasia1956-git">GitHub profile</a></li>
+          <li><a href="https://www.linkedin.com/in/sushantkumardas021/">LinkedIn profile</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
